@@ -19,13 +19,13 @@ body {
   font-size: 1.8rem;
   display: grid;
   place-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: hsl(221, 100%, 96%);
 }
 
 .results-card {
   display: grid;
-  width: 37.5rem;
+  max-width: 50rem;
   background-color: #fff;
 }
 
@@ -174,7 +174,7 @@ body {
 @media screen and (min-width: 750px) {
   .results-card {
     grid-template-columns: 1fr 1fr;
-    width: 73.6rem;
+    max-width: 73.6rem;
     border-radius: 3.5rem 0 0 3.5rem;
   }
 
@@ -220,5 +220,12 @@ body {
 
   .category:nth-child(5) {
     margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .results-card {
+    border-radius: 3.5rem;
+    overflow: hidden;
   }
 }
