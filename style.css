@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  background: linear-gradient(hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0%, #2f2ce9 100%);
   text-align: center;
   padding: 4rem 6rem;
   padding-top: 2rem;
@@ -48,9 +48,11 @@ body {
 }
 
 .result {
-  background-image: linear-gradient(
-    hsla(256, 72%, 46%, 1) 0%,
-    hsla(241, 72%, 46%, 0) 100%
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0%) 100%,
+    rgba(37, 33, 201, 0%) 100%
   );
   display: flex;
   flex-direction: column;
