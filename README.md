@@ -20,7 +20,7 @@ more of a general component, can be adapted and changed easily to fit in any web
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/results-summary-component-yin3jhlmMk)
-- Live Site URL: [Live site](https://github.com/SafeNSound95/results-summary-component)
+- Live Site URL: [Live site](https://safensound95.github.io/results-summary-component/)
 
 ### Built with
 
