@@ -26,6 +26,7 @@ body {
 .results-card {
   display: grid;
   width: 37.5rem;
+  background-color: #fff;
 }
 
 .section-header {
@@ -38,8 +39,6 @@ body {
   padding-top: 2rem;
   border-radius: 0 0 3.5rem 3.5rem;
   box-shadow: 0 1rem 3rem 0.2rem hsla(241, 81%, 54%, 0.2);
-  margin-bottom: -3rem;
-  z-index: 1;
 }
 
 .section-header-heading {
@@ -89,7 +88,6 @@ body {
 
 .section-body {
   padding: 3rem;
-  background-color: #fff;
 }
 
 .section-body h2 {
@@ -177,11 +175,11 @@ body {
   .results-card {
     grid-template-columns: 1fr 1fr;
     width: 73.6rem;
+    border-radius: 3.5rem 0 0 3.5rem;
   }
 
   .section-header {
     border-radius: 3.5rem;
-    margin-bottom: 0;
     padding: 4rem 6rem;
     gap: 2.4rem;
   }
@@ -217,10 +215,7 @@ body {
   }
 
   .section-body {
-    margin-left: -3rem;
     padding: 4rem;
-    padding-left: 7rem;
-    border-radius: 0 3rem 3rem 0;
   }
 
   .category:nth-child(5) {
